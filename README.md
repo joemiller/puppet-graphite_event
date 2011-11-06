@@ -20,6 +20,10 @@ resources on a host in the group. We can see that immediately following a
 a puppet change the load spiked on one of the servers. This can be 
 very valuable information.
 
+Additional information on how and why to use graphite to track events
+can be found in Etsy's [Measure Anything, Measure Everything](http://codeascraft.etsy.com/2011/02/15/measure-anything-measure-everything/)
+paper.
+
 Similar software
 ----------------
 

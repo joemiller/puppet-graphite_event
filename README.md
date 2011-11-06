@@ -54,7 +54,7 @@ Installation & Usage
 
         [master]
         report = true
-        reports = graphite_event  # can specify multiple, ie: `store, graphite_event`
+        reports = graphite_event  # can specify multiple: `store, graphite_event`
         pluginsync = true
         
         [agent]
@@ -63,12 +63,20 @@ Installation & Usage
 
 4.  Restart your puppet master.
 
+Masterless puppet
+-----------------
+
+I suspect this could also be used in a masterless puppet setup as well, just make
+sure to deploy the report and config file to each client. If you have success with this
+please let me know by leaving a comment in the github issues section.
+
 Author
 ------
 
 joe miller.  http://joemiller.me (11/5/2011)
 
 Derived from [puppet-graphite](https://github.com/nareshov/puppet-graphite) by Naresh V. <nareshov@gmail.com>
+
 Derived from [puppet-ganglia](https://github.com/jamtur01/puppet-ganglia) by James Turnbull <james@lovedthanlost.net>
 
 Original License

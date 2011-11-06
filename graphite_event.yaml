@@ -1,0 +1,4 @@
+---
+:graphite_server: 'graphite.example.com'
+:graphite_port: 2003
+:path_prefix: events.puppet

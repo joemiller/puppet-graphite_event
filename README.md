@@ -12,7 +12,7 @@ run into a graphite server. The data can then be overlaid onto other metrics
 to help correlate events.  Use the `drawAsInfinite()` function in graphite 
 to draw the events as vertical lines.
 
-![example-graph-image](http://adamzap.com/random/landslide.png)
+![example-graph-image](https://github.com/joemiller/puppet-graphite_event/blob/master/example-graph.png)
 
 For example, in the diagram above the load average from a group of servers 
 is plotted. Blue vertical linesmark a point in time when puppet modified 

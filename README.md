@@ -15,9 +15,9 @@ to draw the events as vertical lines.
 ![example-graph-image](https://github.com/joemiller/puppet-graphite_event/raw/master/example-graph.png)
 
 For example, in the diagram above the load average from a group of servers 
-is plotted. Blue vertical linesmark a point in time when puppet modified 
+is plotted. Blue vertical lines mark a point in time when puppet modified 
 resources on a host in the group. We can see that immediately following a
-a puppet change the load spiked on one of the servers. This can be 
+puppet change the load spiked on one of the servers. This can be 
 very valuable information.
 
 Additional information on how and why to use graphite to track events
